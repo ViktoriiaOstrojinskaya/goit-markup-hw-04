@@ -40,10 +40,18 @@
         </nav>
         <ul class="header-contact list">
           <li class="contact-item">
-            <a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="header-mail link">
+              <svg class="contact-soc-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>info@devstudio.com 
+            </a>
           </li>
           <li class="contact-item">
-            <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="header-tel link">
+              <svg class="contact-soc-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>+38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -64,7 +72,7 @@
             <li class="holder-item"><button type="button" class="holder-btn">Маркетинг</button></li>
           </ul>
           <ul class="pictures-list list">
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-1.jpg"
                 alt="Ноутбук"
@@ -72,12 +80,12 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Технокряк</h2>
                 <p class="pictures-text">Веб-сайт</p>
-              </div>
+            </div>
             </li>
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-2.jpg"
                 alt="Два баскетболиста"
@@ -85,12 +93,12 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Постер New Orlean vs Golden Star</h2>
                 <p class="pictures-text">Дизайн</p>
               </div>
             </li>
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-3.jpg"
                 alt="Вывеска ресторана"
@@ -98,12 +106,12 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Ресторан Seafood</h2>
                 <p class="pictures-text">Приложение</p>
               </div>
             </li>
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-4.jpg"
                 alt="Наушники"
@@ -111,12 +119,12 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Проект Prime</h2>
                 <p class="pictures-text">Маркетинг</p>
               </div>
             </li>
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-5.jpg"
                 alt="Две картонные коробки"
@@ -124,12 +132,12 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Проект Boxes</h2>
                 <p class="pictures-text">Приложение</p>
               </div>
             </li>
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-6.jpg"
                 alt="Компбютерный монитор"
@@ -137,12 +145,12 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Inspiration has no Borders</h2>
                 <p class="pictures-text">Веб-сайт</p>
               </div>
             </li>
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-7.jpg"
                 alt="Журнал"
@@ -150,12 +158,12 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Издание Limited Edition</h2>
                 <p class="pictures-text">Дизайн</p>
               </div>
             </li>
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-8.jpg"
                 alt="Табличка"
@@ -163,12 +171,12 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Проект LAB</h2>
                 <p class="pictures-text">Маркетинг</p>
               </div>
             </li>
-            <li class="pictures-item">
+            <li class="pictures-item border">
               <img
                 src="./images/img-portfolio-9.jpg"
                 alt="Ноутбук с клавиатурой"
@@ -176,7 +184,7 @@
                 height="294"
                 class="pictures-item"
               />
-              <div class="pictures-border">
+              <div class="pictures-inner">
                 <h2 class="pictures-subtitle">Growing Business</h2>
                 <p class="pictures-text">Приложение</p>
               </div>
@@ -189,6 +197,7 @@
     <!-- Футер -->
     <footer class="footer">
       <div class="container">
+     <div class="footer-contact-section">
         <a href="./index.html" class="footer-logo link"
           ><span class="footer-web">Web</span><span class="footer-studio">Studio</span></a
         >
@@ -211,6 +220,42 @@
             </li>
           </ul>
         </address>
+      </div>
+        
+
+      <div class="footer-soc-section">
+        <strong class="soc-title" >присоединяйтесь</strong>
+        <ul class="footer-soc-list list">
+          <li class="footer-soc-item">
+            <a href="" class="footer-soc-link link">
+              <svg class="footer-soc-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a href="" class="footer-soc-link link">
+              <svg class="footer-soc-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a href="" class="footer-soc-link link">
+              <svg class="footer-soc-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a href="" class="footer-soc-link link">
+              <svg class="footer-soc-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
       </div>
     </footer>
   </body>
