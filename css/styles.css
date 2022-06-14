@@ -128,7 +128,8 @@ img {
 
 .header-mail,
 .header-tel {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -447,6 +448,7 @@ img {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer {
@@ -624,15 +626,16 @@ img {
 
 .pictures-inner {
   padding: 20px 24px;
-}
-
-.pictures-item.border {
-  background: var(--main-bkg);
   border: 1px solid #eeeeee;
+  border-top: 0;
 }
 
-.pictures-item.border:hover,
-.pictures-item.border:focus {
+.pictures-active {
+  display: block;
+}
+
+.pictures-active:hover,
+.pictures-active:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
