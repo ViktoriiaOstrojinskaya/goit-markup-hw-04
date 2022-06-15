@@ -403,10 +403,6 @@ img {
   color: var(--second-color);
 }
 
-.clients.section {
-  padding-top: 70px;
-}
-
 .clients-soc-list {
   display: flex;
   justify-content: center;
